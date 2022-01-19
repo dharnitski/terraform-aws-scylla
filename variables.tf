@@ -162,7 +162,7 @@ variable "aws_ami_monitor" {
 
 variable "cluster_scylla_version" {
 	description = ""
-	default = "3.0.3"
+	default = "4.5.3"
 }
 
 variable "aws_ami_scylla" {
@@ -177,6 +177,9 @@ variable "aws_ami_scylla" {
 		"3.0.3_us-west-2" = "ami-0eb3613c5069e80c5"
 		"3.0.3_eu-west-1" = "ami-09dc493608b93279e"
 		"3.0.3_sa-east-1" = "ami-0ceba50df0b950d4a"
+		"4.5.3_us-east-1" = "ami-0c6e0369e5fcb5564"
+		"4.5.3_eu-west-1" = "ami-036ff971553072cce"
+		"4.5.3_us-west-1" = "ami-0b131772ad5c2ff80"
 	}
 }
 
